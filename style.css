@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --container-width: 800px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2f2fa2;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+nav{
+    background-color: #242582;
+    height: 100px;
+}
+
+nav .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .logo a{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav ul{
+    display: flex;
+    gap: 1em;
+}
+
+.nav ul li{
+    transition: 0.2s ease;
+    align-self: center;
+}
+
+
+.nav ul li:hover{
+    color: lightblue;
+}
+
+header{
+    padding: 50px 0;
+}
+
+header .container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container h1{
+    margin-bottom: 20px;
+}
+
+header .container img{
+    width: 50%;
+    height: auto;
+    border-radius: 10% 10% 10% 10%;
+}
+
+main{
+    background-color: lightgrey;
+    color: #333;
+}
+
+main .container{
+    padding: 50px 0;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+main .container2{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+main .container h1{
+    flex: 1;
+    margin-bottom: 5px;
+}
+main .container2 h1{
+    margin-bottom: 5px;
+}
+main .container .boxes{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .container2 .boxes{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .container2 .boxes div h3{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .container .boxes > *{
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+main .container2 .boxes > *{
+    border-radius: 15px;
+    padding: 20px 50px;
+    flex: 1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+main h3{
+    padding-bottom: 5px;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+section .container .explanation{
+    flex: 1;
+}
+
+section .container .pets{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pets i{
+    margin-right: 5px;
+}
+
+.pets h4{
+    margin-bottom: 10px;
+}
+
+.pets .row{
+    display: flex;
+    gap: 10px;
+}
+
+.pets .row > *{
+    flex: 1;
+    background-color: #3a3aba;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.pets .column{
+    background-color: #3a3aba;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.pets .row > *:hover,
+.pets .column:hover{
+    background-color: #99738e;
+    box-shadow: 0 15px 5px rgba(119, 119, 119, 0.8);
+    transform: rotate(-3deg);
+}
+
+footer .container{
+    max-width: var(--container-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+footer hr{
+    width: var(--container-width);
+}
+
+footer .container h2{
+    text-align: center;
+    transition: all 0.75s ease-in-out;
+}
+
+footer .container h2:hover{
+    transform: rotate(360deg);
+    color: #f64c72;
+}
+
+footer .container button{
+    padding: 20px 50px;
+    background-color: #f64c72;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+footer .container button:hover{
+    background-color: #fe2151;
+}
+
+small{
+    line-height: 5px;
+    font-size: x-small;
+}
+
+small > *{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: normal;
+}
+
+uttuman-tag{
+    display: block;
+}
