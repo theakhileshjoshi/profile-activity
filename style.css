@@ -94,7 +94,7 @@ main .container{
     align-items: center;
     justify-content: space-around;
 }
-main .container2{
+section .container2{
     padding: 50px 0;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ main .container h1{
     flex: 1;
     margin-bottom: 5px;
 }
-main .container2 h1{
+section .container2 h1{
     margin-bottom: 5px;
 }
 main .container .boxes{
@@ -115,7 +115,7 @@ main .container .boxes{
     flex-direction: column;
     gap: 20px;
 }
-main .container2 .boxes{
+section .container2 .boxes{
     display: flex;
     flex-direction:column;
     gap: 20px;
@@ -123,7 +123,7 @@ main .container2 .boxes{
     justify-content: space-around;
 }
 
-main .container2 .boxes div h3{
+section .container2 .boxes div h3{
     display: flex;
     flex-direction:column;
     gap: 20px;
@@ -137,15 +137,20 @@ main .container .boxes > *{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-main .container2 .boxes > *{
+section .container2 .boxes > *{
     border-radius: 15px;
     padding: 20px 50px;
     flex: 1;
+    background-color: #3a3aba;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 main h3{
     padding-bottom: 5px;
+}
+
+#education{
+    background-color: lightgrey;
 }
 
 section .container{
@@ -174,6 +179,7 @@ section .container .pets{
 
 .pets h4{
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .pets .row{
